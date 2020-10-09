@@ -36,7 +36,7 @@ steps:
 - task: AzureCLI@2
   displayName: Copy to Blob
   inputs:
-    azureSubscription: 'Visual Studio Enterprise(1e23aa72-fb0d-424b-a48c-0de4916aee72)'
+    azureSubscription: 'ShareThrift'
     scriptType: 'pscore'
     scriptLocation: 'inlineScript'
     inlineScript: |
