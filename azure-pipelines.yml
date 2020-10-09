@@ -41,6 +41,6 @@ steps:
     scriptLocation: 'inlineScript'
     inlineScript: |
       az storage blob upload-batch --destination `$web --account-name sharethrist3452 --source . --auth-mode login
-      az cdn endpoint purge --profile-name sharethrift -g rg-sharethrift -n sharethrift --content-paths "/*"
+      az cdn endpoint purge --profile-name sharethrift -g rg-sharethrift -n sharethrift12345 --content-paths "/*"
     addSpnToEnvironment: true
     workingDirectory: 'ui/build'
